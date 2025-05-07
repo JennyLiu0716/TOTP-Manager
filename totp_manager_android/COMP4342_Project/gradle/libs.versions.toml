@@ -1,0 +1,46 @@
+[versions]
+agp = "8.6.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+constraintlayout = "2.2.0"
+lifecycleLivedataKtx = "2.8.7"
+lifecycleViewmodelKtx = "2.8.7"
+navigationFragment = "2.8.4"
+navigationUi = "2.8.4"
+zxing-core = "3.5.3"
+zxing-android-embedded = "4.3.0"
+gson = "2.11.0"
+biometric = "1.1.0"
+recyclerview = "1.3.2"
+otp = "1.0.0"
+scibejava-core = "8.3.0"
+commons-codec = "1.17.1"
+room-runtime = "2.5.0"
+
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+zxing-core = { module = "com.google.zxing:core", version.ref = "zxing-core" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxing-android-embedded" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson"}
+biometric = {module = "androidx.biometric:biometric", version.ref = "biometric"}
+recyclerview = {module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview"}
+room-runtime = { module = "androidx.room:room-runtime", version = "2.6.1" }
+room-compiler = { module = "androidx.room:room-compiler", version = "2.6.1" }
+commons-codec = { group = "commons-codec", name = "commons-codec", version.ref = "commons-codec" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
